@@ -1,0 +1,79 @@
+.Hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    background-color: var(--dark-blue3);
+    z-index: 100;
+    position: relative;
+
+}
+
+.Hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Hero__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Hero__description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Hero__button {
+    background-color: var(--cyan);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.Img__background {
+    z-index: -1;
+    position: absolute;
+    top: 22rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+    .Hero {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .Hero__title {
+        font-size: 25px;
+    }
+
+    .Hero__image {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .Hero__description {
+        font-size: 15px;
+    }
+    
+    .Img__background {
+        width: 500px;
+        top: 410px;
+    }
+}

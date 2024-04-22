@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Raleway:wght@400;700&family=Roboto:wght@300;500;700&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@300;500;700&family=Space+Grotesk:wght@500&display=swap');
+
+:root {
+    /* Colors */
+
+    /* Primary */
+
+    --dark-blue: hsl(217, 28%, 15%);
+    /* (intro and email sign up background) */
+    --dark-blue1: hsl(218, 28%, 13%);
+    /* (main background) */
+    --dark-blue2: hsl(216, 53%, 9%);
+    /* (footer background) */
+    --dark-blue3: hsl(219, 30%, 18%);
+    /* (testimonials background) */
+    --purple: hsl(198, 60%, 50%);
+    /* Accent */
+
+    --cyan: hsl(176, 68%, 64%);
+    /* (inside call-to-action gradient) */
+    --blue: hsl(198, 60%, 50%);
+    /* (inside call-to-action gradient) */
+    --light-red: hsl(0, 100%, 63%);
+    /* (error) */
+
+    /* Neutral */
+
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark-blue1);
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+}
+
+@media screen and (max-width: 375px) {
+    #root {
+    max-width: 100%;
+}
+
+}

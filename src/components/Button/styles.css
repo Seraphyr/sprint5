@@ -1,0 +1,19 @@
+.Button {
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: var(--white);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Button:hover {
+    background: var(--cyan);
+    font-weight: 700;
+}
